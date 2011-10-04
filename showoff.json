@@ -1,0 +1,8 @@
+{ 
+	"name": "Dependency Management", 
+	"sections": [ 
+		{"section":"introduction"},
+		{"section":"packaging"},
+		{"section":"dependency"}
+	]
+}
