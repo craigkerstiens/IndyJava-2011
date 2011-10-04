@@ -1,8 +1,6 @@
-{ 
-	"name": "Dependency Management", 
-	"sections": [ 
-		{"section":"introduction"},
-		{"section":"packaging"},
-		{"section":"dependency"}
+{
+	"name": "Java on Heroku",
+	"sections": [
+		{"section":"slides"}
 	]
 }
