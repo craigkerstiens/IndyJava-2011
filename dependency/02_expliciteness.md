@@ -9,19 +9,19 @@
 
 .notes For some background, when we started beta testing Heroku's Python support, we reached out to a few people. This is one of the first apps that had been written elsewhere during a weekend hackathon, and was never intended to run on us. (As a quick aside, its a decent little lightweight app for internal code sharing). Think of it as a mix of github's gist, except public only to your internal company/groups.
 
-<!SLIDE >
+<!SLIDE center>
 
 ![Requirements.txt](../codebox_requirements.jpg)
 
 .notes The app had a requirements.txt that looked like this. Seems simple enough. However it was written a month or two earlier. A simple pip install now and starting the server resulted in several errors. If it doesn't work fresh locally it wont work deployed either.
 
-<!SLIDE>
+<!SLIDE center>
 
 ![Requirements.txt](../codebox_requirements_correct.jpg)
 
 .notes Fast forward, now its running on us, and a git clone, pip install and runserver will now work for anyone. 
 
-<!SLIDE>
+<!SLIDE center>
 ![Requirements.txt](../djangoproject_requirements.jpg)
 
 .notes This isn't only the case for small one off weekend projects (though is surely common there), djangoproject.com suffers from a slightly lesser severe, but nonetheless similar case. While the earlier version of codebox had no versions, djangoproject.com specifies a range of version numbers. As a community we're really good about backwards compatability for minor versions, but we're by no means perfect. Please still don't so this.
